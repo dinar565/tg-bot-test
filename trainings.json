@@ -1,0 +1,49 @@
+{
+    "trainings": [
+        {
+            "state": "pending",
+            "creation_date": "2024-09-16T14:21:33Z",
+            "name": "test",
+            "running": {
+                "distance": "2-3 км",
+                "heart_rate_zone": 1,
+                "comment": "детали"
+            },
+            "physical_training": {
+                "series_num": 3,
+                "rest_duration_sec": 30,
+                "exercises": [
+                    {
+                        "type": "count",
+                        "name": "Стопа",
+                        "exercise_num": "3.7",
+                        "count": 20
+                    },
+                    {
+                        "type": "count",
+                        "name": "Присед",
+                        "exercise_num": "3.6",
+                        "count": 10
+                    },
+                    {
+                        "type": "count",
+                        "name": "Пресс на турнике",
+                        "exercise_num": "3.5",
+                        "count": 10
+                    },
+                    {
+                        "type": "duration",
+                        "name": "Разножка",
+                        "exercise_num": "3.19",
+                        "duration_sec": 30
+                    }
+                ]
+            },
+            "pull-ups": {
+                "series_num": 15,
+                "rest_duration_sec": 30,
+                "grip_type": "normal"
+            }
+        }
+    ]
+}
