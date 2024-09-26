@@ -1,49 +1,94 @@
 {
     "trainings": [
         {
-            "state": "pending",
+            "state": "completed",
             "creation_date": "2024-09-16T14:21:33Z",
             "name": "test",
-            "running": {
-                "distance": "2-3 км",
-                "heart_rate_zone": 1,
-                "comment": "детали"
-            },
-            "physical_training": {
-                "series_num": 3,
-                "rest_duration_sec": 30,
-                "exercises": [
-                    {
-                        "type": "count",
-                        "name": "Стопа",
-                        "exercise_num": "3.7",
-                        "count": 20
-                    },
-                    {
-                        "type": "count",
-                        "name": "Присед",
-                        "exercise_num": "3.6",
-                        "count": 10
-                    },
-                    {
-                        "type": "count",
-                        "name": "Пресс на турнике",
-                        "exercise_num": "3.5",
-                        "count": 10
-                    },
-                    {
-                        "type": "duration",
-                        "name": "Разножка",
-                        "exercise_num": "3.19",
-                        "duration_sec": 30
-                    }
-                ]
-            },
-            "pull-ups": {
-                "series_num": 15,
-                "rest_duration_sec": 30,
-                "grip_type": "normal"
-            }
+            "description": "Running 2-3 км in HR zone 1 (детали)\n\n3 series of physical exercises with 30 sec rest:\n1. Стопа (№3.7): 20 reps\n2. Присед (№3.6): 10 reps\n3. Пресс на турнике (№3.5): 10 reps\n4. Разножка (№3.19): 30 sec\n\nPull-ups: 15 series with normal grip and 30 sec rest."
+        },
+        {
+            "state": "completed",
+            "creation_date": "2024-09-18T18:33:33Z",
+            "name": "test 2",
+            "description": "Running 4-5 km in HR zone 2 ()\n\nPull-ups: 15 series with rolling grip and 30 sec rest."
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346733",
+            "name": "Training",
+            "description": "Неделя 2 \nПодтягивания. 15 подходов обычным хватом. Отдых по 30 сек"
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346759",
+            "name": "Training",
+            "description": "Неделя 2 \n6-7 км легко медленно. После 4 серии ОФП. Без отдыха: Стопа №3.7 (по 20); Присед №3.6 (10 р.);  Пресс на турнике №3.5 (10 р.); Разножка №3.19 (40 с)."
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346774",
+            "name": "Training",
+            "description": "Неделя 2\nПодтягивания. 15 подходов с чередованием хватов (широкий, обратный, обычный). Отдых по 30 сек"
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346788",
+            "name": "Training",
+            "description": "Неделя 2\n\"1 км разминка. Далее 7 км чередование 2-3 мин. медл. и 1 мин. бег в темпе  рекорда на 10 км\nОтжимания 15 подходов. Отдых по 30 сек\""
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346806",
+            "name": "Training",
+            "description": "Неделя 2 \nРазминка. После 3-4 серии ОФП. Между сериями 2 мин отдых. Стопа №3.7 (по 20); Планка №3.20 (40 сек); Корейские выпады в статике №3.32 (по 20-25 сек на каждую ногу); Скручивания №3.31 (20 р.); Удержание ноги с движением №3.40 (по 40 сек); Отжимания №3.2 (10-15 р); Разножка №3.19 (50 сек.)."
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346821",
+            "name": "Training",
+            "description": "Неделя 2\n\"Пробежать 9-11 км. Пульс 80% от максимума\nПодтягивания. 15 подходов обычным хватом. Отдых по 30 сек\""
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346854",
+            "name": "Training",
+            "description": "Неделя 3\nПодтягивания. 15 подходов обычным хватом. Отдых по 30 сек"
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346881",
+            "name": "Training",
+            "description": "Неделя 3\n5-6 км на пульсе до 130-140. После 4 серии ОФП. Без отдыха: Стопа №3.7 (по 20-25); Планка №3.20 (40-60 сек); Корейские выпады в статике №3.32 (по 20-25 сек на каждую ногу); Пресс на турнике №3.5 (8-10 р.)"
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346898",
+            "name": "Training",
+            "description": "Неделя 3\n7-8 км легко  После 4 серии ОФП. Без отдыха: Стопа №3.7 (по 20); Присед. №3.6 (15 р.);  Пресс на турн. №3.5 (10 р.); Разножка №3.19 (1 мин)."
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346907",
+            "name": "Training",
+            "description": "Неделя 3\nПодтягивания. 15 подходов с чередованием хватов (широкий, обратный, обычный). Отдых по 30 сек"
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346917",
+            "name": "Training",
+            "description": "1 км разминка. Далее 7 км чередование 2-3 мин. медл. и 1 мин. бег в темпе  рекорда на 10 км\nОтжимания 15 подходов. Отдых по 30 сек\n"
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346931",
+            "name": "Training",
+            "description": "Неделя 3\nРазминка. После 3-4 серии ОФП. Между сериями 2 мин отдых. Стопа №3.7 (по 20); Планка №3.20 (40 сек); Мах ногой из выпада №3.42 (по 7-9 на каждую ногу); Скручивания №3.31 (20 р.); Удержание ноги с движением №3.40 (по 40 сек); Отжимания №3.2 (10-15 р); Разножка №3.19 (1 мин.)."
+        },
+        {
+            "state": "pending",
+            "creation_date": "1727346945",
+            "name": "Training",
+            "description": "Неделя 3\n\"Пробежать 10-12 км. Пульс 80% от максимума\nПодтягивания. 15 подходов обычным хватом. Отдых по 30 сек\""
         }
     ]
 }

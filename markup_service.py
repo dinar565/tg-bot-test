@@ -13,6 +13,10 @@ def get_inline_markup(buttons, row_width=1):
     return quick_markup(markup_template, row_width=row_width)
 
 
+def get_yes_no_inline_markup():
+    return get_inline_markup({"Yes": "yes", "No": "no"})
+
+
 def build_reply_markup(button_names):
     markup = types.ReplyKeyboardMarkup(resize_keyboard=True, one_time_keyboard=True)
     for name in button_names:

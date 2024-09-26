@@ -1,0 +1,6 @@
+WELCOME_MESSAGE = "{0}, welcome to Lorenzo Training Helper!"
+NEW_TRAINING_START_MESSAGE = "{0}, please send training description"
+NEW_TRAINING_ADDED_MESSAGE = "{0}, new training has added in the list"
+TRAINING_COMPLETED_MESSAGE = "{0}, congratulations for training completion!"
+NO_PENDING_TRAININGS_MESSAGE = "{0}, there are no pending trainings.\nPlease add new training in the list"
+NEXT_TRAINING_MESSAGE = "{0}, your next training is:"
